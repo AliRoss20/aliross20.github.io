@@ -84,3 +84,7 @@ h2 {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+.modal-body img {
+  width: 100%;
+}
