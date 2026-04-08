@@ -4,19 +4,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Ewert&family=Fascinate+Inline&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /*#4D4861 #605770 #9E7682 #EBF2FA ; 1 white, 2 purple, 1 orange */
-/* #343E3D #6F8576 #C6E7D2 #ADA7C9 #D7B9D5 ; 3 green d->l and 2 lilac */
+/* #343E3D #6F8576 #C6E7D2 #ADA7C9 #D7B9D5 ; 3 green d->l and 2 lilac  #d2b1d0*/
 
 :root {
-  --bg-color: #343e3d;
-  --text-color: #ebf2fa;
-  --highlight-color-one: #ada7c9;
-  --highlight-color-two: #d7b9d5;
-  --highlight-color-three: #c6e7d2;
+  --bg-color: #414e4d;
+  --text-color: #e9d8e8;
+  --highlight-color-one: #839d6c;
+  --highlight-color-two: #414e4d;
+  --highlight-color-three: #212830;
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+
+  background-image: url("images/mtnmock.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .navbar-brand {
@@ -25,10 +30,17 @@ body {
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Hero Section */
 .hero-section {
-  background: url (../images/catkeyboard.webp);
+  background-image: url("images/mtnmock.jpeg");
+
   background-size: cover;
+  background-position: center;
+
   height: 100vh;
   display: flex;
   align-items: right;
