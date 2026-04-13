@@ -18,7 +18,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 
-  background-image: url("images/mtnmock.jpeg");
+  /* background-image: url("../images/mtnmock.jpeg"); */
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ html {
 
 /* Hero Section */
 .hero-section {
-  background-image: url("images/mtnmock.jpeg");
+  background-image: url("../images/mtnmock.jpeg");
 
   background-size: cover;
   background-position: center;
@@ -64,6 +64,17 @@ h5 {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+.carousel-inner img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+.carousel-control-prev {
+  background-color: violet;
 }
 
 /* Work section */
@@ -99,4 +110,33 @@ h2 {
 
 .modal-body img {
   width: 100%;
+}
+
+.parallax {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/mtnmock.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  scroll-snap-align: start;
+}
+
+.parallax:nth-child(2) {
+  background-image: url("../images/mtn2.jpg");
+}
+.parallax:nth-child(3) {
+  background-image: url("../images/mtnmock.jpeg");
+}
+
+.content {
+  color: var(--text-color);
+  font-family: "Fascinate Inline", system-ui;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
 }
