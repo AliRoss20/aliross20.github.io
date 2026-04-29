@@ -66,6 +66,7 @@ h5 {
   font-style: normal;
 }
 
+/* Carousel */
 .carousel-inner img {
   width: 100%;
   aspect-ratio: 16/9;
@@ -74,7 +75,7 @@ h5 {
   padding-left: 5em;
 }
 .carousel-control-prev {
-  background-color: violet;
+  color: #839d6c;
 }
 
 /* Work section */
@@ -112,6 +113,7 @@ h2 {
   width: 100%;
 }
 
+/* parallax attempt (work page) */
 .parallax {
   height: 100vh;
   width: 100%;
