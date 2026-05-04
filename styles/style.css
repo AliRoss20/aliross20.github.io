@@ -7,11 +7,11 @@
 /* #343E3D #6F8576 #C6E7D2 #ADA7C9 #D7B9D5 ; 3 green d->l and 2 lilac  #d2b1d0*/
 
 :root {
-  --bg-color: #414e4d;
-  --text-color: #e9d8e8;
-  --highlight-color-one: #839d6c;
-  --highlight-color-two: #414e4d;
-  --highlight-color-three: #212830;
+  --bg-color: #3a0c10;
+  --text-color: #f6e1df;
+  --highlight-color-one: #883a52;
+  --highlight-color-two: #ba6a76;
+  --highlight-color-three: #4f203b;
 }
 
 body {
@@ -68,7 +68,7 @@ h5 {
 
 /* Carousel */
 .carousel-inner img {
-  width: 100%;
+  width: 70%;
   aspect-ratio: 16/9;
   object-fit: cover;
   padding-right: 5em;
@@ -127,7 +127,9 @@ h2 {
   background-attachment: fixed;
   scroll-snap-align: start;
 }
-
+.parallax h1 {
+  color: #3a0c10;
+}
 .parallax:nth-child(2) {
   background-image: url("../images/mtn2.jpg");
 }
