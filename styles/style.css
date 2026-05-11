@@ -67,8 +67,9 @@ h5 {
 }
 
 /* Carousel */
+
 .carousel-inner img {
-  width: 70%;
+  width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
   padding-right: 5em;
